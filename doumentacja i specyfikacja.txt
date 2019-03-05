@@ -1,0 +1,82 @@
+﻿Imie nazwisko autora 1: Natalia Piechnik	
+Email kontaktowy: natalia.piechnik@o2.pl
+nr. albumu:10249
+
+Imie nazwisko autora 2: Michał Majcher	
+Email kontaktowy: majcherm.micha³@gmail.com
+nr. albumu:10291
+
+Imie nazwisko autora 3: Dawid Kobos	
+Email kontaktowy: dawidos5122@interia.pl
+nr. albumu:10230
+
+
+Build do testów w postaci działającego sklepu do testów: http://skoczeksklep.eu/
+
+Dane logowania na konto administratora: 
+Login: admin@skoczek.pl
+Hasło: zaq1@WSX
+
+Dane logowania na przykładowe konto użytkownika:
+Login: test@test.pl
+Hasło: test
+
+Opis: Prototyp internetowego sklepu sportowego "skoczek" posiadającego podstawową funkcjonalność, z możliwością póżniejszej rozbudowy. Zbudowany w oparciu o HTML, CSS, PHP, Bootstrap, MySQL.
+
+Funkcjonalność:
+Z poziomu graficznego interfejsu gościa (brak zalogowania): przeglądać produkty.
+Z poziomu graficznego interfejsu konta użytkownika: dodawać, usuwać produkty do/z koszyka oraz składać zamówienia.
+Z poziomu graficznego interfejsu konta administratora: dodawać, edytować i usuwać produkty, dodawać użytkowników, przeglądać złożone zamówienia oraz edytować ich status.
+
+Roadmap:
+-stworzenie podziału plików (odpowiednie foldery pages, php, parts, css, img)
+-integracja bootstrap'a
+-Stworzenie loga sklepu
+-stworzenie ogólnego szablonu stron
+-stworzenie menu dla użytkowników z sprawdzaniem która strona jest wybrana (zaznaczenie jej innym tłem)
+-stworzenie menu dla administratora z sprawdzaniem która strona jest wybrana (zaznaczenie jej innym tłem)
+-stworzenie strony głównej
+-stworzenie strony informacje
+-stworzenie strony kontakt + dodanie mapy dojazu
+-stworzenie strony błędu
+-stworzenie strony(szablonu) wyswietlacjącej produkt
+-stworzenie karuzeli oraz grafiki do niej
+-stworzenie wyglądu sekcji "Nowe produkty" wyświetlanie 9 ostatnio dodanych produktów - w 3linijakach po 3 produkty
+-stworzenie formularza logowania z zabezpieczeniem capcha
+-stworzenie formularza dodawania produktów
+-stworzenie formularza edycji produktów
+-stworzenie formularza usuwania produktów
+-stworzenie formularza dodawania użytkowników
+
+-stworzenie bazy danych
+-stworzenie tabeli uzytkownicy
+-stworzenie tabeli produkty
+-stworzenie tabeli koszyk
+-stworzenie tabeli zamówienia
+
+-stworzenie pliku z danymi konfiguracyjnymi/dostępowymi bazy danych "\php\dbdata.php"
+
+-stworzenie skryptu dodającego użytkowników
+-stworzenie skryptu dodającego produkty
+-stworzenie skryptu edytującego produkty
+-stworzenie skryptu usuwającego produkty
+-stworzenie strony wyświetlającej zamówienie/a - wszystkie i szczegóły konkretnego
+-stworzenie skryptu zmieniana statusu zamówienia
+-stworzenie skryptu dodawania do koszyka
+-stworzenie skryptu usuwania z koszyka 
+-stworzenie skryptu składania zamówienia
+-stworzenie skryptu logowania
+-stworzenie skryptu wylogowania
+-stworzenie skryptu szukającego zdjęcia produktu
+
+-testowanie funkcjonalności
+
+Specyfikacja techniczna początkowa: 
+-Wykupienie domeny i hostingu
+-Umieszczenie stworzonych plików w katalogu dostępnym publicznie (przykładowo "public_html") z zachowaniem hierarchi folderów
+-Stworzenie bazy danych
+-Import tabel
+-Wypozycjonowanie strony używając narzędzi takich jak GTMetrix, Google Page Speed Insight, Google Analytics, Google Search Console, Seoaudyt.clearsence i innych
+-Stworzenie kont użytkowników
+-Dodanie produktów
+
